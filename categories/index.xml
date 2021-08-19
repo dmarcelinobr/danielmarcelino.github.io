@@ -25,32 +25,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>releases</title>
-      <link>https://dmarcelinobr.github.io/categories/releases/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://dmarcelinobr.github.io/categories/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>https://dmarcelinobr.github.io/categories/tranquilpeak/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://dmarcelinobr.github.io/categories/tranquilpeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>https://dmarcelinobr.github.io/categories/rstats/</link>
-      <pubDate>Wed, 17 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dmarcelinobr.github.io/categories/rstats/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
