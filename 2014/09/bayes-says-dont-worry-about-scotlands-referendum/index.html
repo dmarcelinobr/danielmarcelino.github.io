@@ -158,6 +158,23 @@
     
     </a>
   
+  <script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
 </header>
 
       <nav id="sidebar" data-behavior="4">
@@ -310,12 +327,8 @@
           <div class="post-content markdown">
             <div class="main-content-wrap">
               <p>Just few hours before Scots head to the polls, there is not a clear cut advantage of the anti-independence vote.</p>
-<h1 id="table-of-contents">Table of Contents</h1>
-<nav id="TableOfContents"></nav>
-
 <p>Actually, the margin is shorter than last time <!-- raw HTML omitted -->I looked at it<!-- raw HTML omitted -->, but despite such a growing trend in favor of the “Yes” campaign in the last weeks, the “No” side has an edge still. To frame this in terms of probabilities that</p>
-<p><!-- raw HTML omitted -->((\theta_{NO}))<!-- raw HTML omitted --> exceeds <!-- raw HTML omitted -->((\theta_{YES}))<!-- raw HTML omitted -->, I write a short function (replicated <!-- raw HTML omitted -->here<!-- raw HTML omitted -->) that will use simulation from the Dirichlet distributions to compute the posterior probability that “No” exceeds “Yes” shown in the lovely chart below.<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p>$(\theta_{NO}))$ exceeds $(\theta_{YES})$, I write a short function (replicated <!-- raw HTML omitted -->here<!-- raw HTML omitted -->) that will use simulation from the Dirichlet distributions to compute the posterior probability that “No” exceeds “Yes” shown in the lovely chart below.</p>
 <p>The data used here to draw the distributions were gathered from a series of polls and available at the wikipedia. The polls employ different methodologies and phrase questions differently. For instance, some surveys ask respondents how they would vote if this referendum were held today, others ask them how they intend to vote on 18th September. By aggregating them, any swing could be the by-product of the random variation to which all polls are subject.</p>
               
 
