@@ -26,7 +26,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Data * Analysis + R | Py",
+    "name": "Data * Analysis + (R | Py)",
     
     "logo": {
       "@type": "ImageObject",
@@ -35,7 +35,7 @@
     
   },
   "description": "Simple examples demonstrating how to evaluate whether two events are independent using Probability Theory.\n",
-  "keywords": []
+  "keywords": ["markov chain, independence"]
 }
 
 </script>
@@ -44,7 +44,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.87.0 with theme Tranquilpeak 0.5.0-BETA">
 <meta name="author" content="Daniel Marcelino">
-<meta name="keywords" content="">
+<meta name="keywords" content="markov chain, independence">
 <meta name="description" content="Simple examples demonstrating how to evaluate whether two events are independent using Probability Theory.">
 
 
@@ -54,7 +54,7 @@
 <meta name="twitter:title" content="Independence Exercises">
 <meta property="og:url" content="https://dmarcelinobr.github.io/2019/05/independence-exercises/">
 <meta property="twitter:url" content="https://dmarcelinobr.github.io/2019/05/independence-exercises/">
-<meta property="og:site_name" content="Data * Analysis &#43; R | Py">
+<meta property="og:site_name" content="Data * Analysis &#43; (R | Py)">
 <meta property="og:description" content="Simple examples demonstrating how to evaluate whether two events are independent using Probability Theory.">
 <meta name="twitter:description" content="Simple examples demonstrating how to evaluate whether two events are independent using Probability Theory.">
 <meta property="og:locale" content="en-us">
@@ -68,7 +68,9 @@
   
   
     
-      <meta property="article:section" content="rstats">
+      <meta property="article:section" content="post">
+    
+      <meta property="article:section" content="reproducible">
     
   
   
@@ -78,6 +80,8 @@
       <meta property="article:tag" content="rstats">
     
       <meta property="article:tag" content="markov">
+    
+      <meta property="article:tag" content="reproducible">
     
   
 
@@ -138,7 +142,7 @@
       <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="https://dmarcelinobr.github.io/" aria-label="Go to homepage">Data * Analysis &#43; R | Py</a>
+    <a class="header-title-link" href="https://dmarcelinobr.github.io/" aria-label="Go to homepage">Data * Analysis &#43; (R | Py)</a>
   </div>
   
     
@@ -270,17 +274,7 @@
        style="background-image:url('/images/markov-chain.png')"
        data-behavior="4">
     
-  </div>
-
-
-      <div id="main" data-behavior="4"
-        class="hasCover
-               hasCoverMetaOut
-               ">
-        <article class="post">
-          
-          
-            <div class="post-header main-content-wrap text-center">
+      <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title">
       Independence Exercises
@@ -300,13 +294,25 @@
   
     <span>in</span>
     
-      <a class="category-link" href="https://dmarcelinobr.github.io/categories/rstats">rstats</a>
+      <a class="category-link" href="https://dmarcelinobr.github.io/categories/post">post</a>, 
+    
+      <a class="category-link" href="https://dmarcelinobr.github.io/categories/reproducible">reproducible</a>
     
   
 
   </div>
 
 </div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post">
+          
           
           <div class="post-content markdown">
             <div class="main-content-wrap">
@@ -325,6 +331,7 @@
 <p>Example 4 - Markov Chain</p>
 </li>
 </ol>
+<h1 id="the-setup">The setup</h1>
               
 
             </div>
@@ -342,6 +349,8 @@
   <a class="tag tag--primary tag--small" href="https://dmarcelinobr.github.io/tags/rstats/">rstats</a>
 
   <a class="tag tag--primary tag--small" href="https://dmarcelinobr.github.io/tags/markov/">markov</a>
+
+  <a class="tag tag--primary tag--small" href="https://dmarcelinobr.github.io/tags/reproducible/">reproducible</a>
 
                   </div>
                 
@@ -436,7 +445,7 @@
           return;
         }
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        var disqus_shortname = 'hugo-tranquilpeak-theme';
+        var disqus_shortname = 'daniel-marcelino';
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
